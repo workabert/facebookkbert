@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    serverActions: {}, // ✅ Must be an object
-  },
+    serverActions: {} // ✅ CORRECT
+  }
 };
 
 module.exports = nextConfig;
